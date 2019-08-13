@@ -1,3 +1,4 @@
+
 var array = [];
 
 //QUESTION 1
@@ -9,7 +10,7 @@ button1.on("click", checkAnswerOne);
 function checkAnswerOne() {
   event.preventDefault();
   var answer1 = $('.answer1').val();
-  if (answer1==="Bumble") {
+  if (answer1==="Assumption High School") {
     response1.text("Awesome Job!");
     array.push(1);
  } else {
@@ -27,7 +28,7 @@ button2.on("click", checkAnswerTwo);
 function checkAnswerTwo() {
   event.preventDefault();
   var answer2 = $('.answer2').val();
-  if (answer2==="Hoppin") {
+  if (answer2==="Windows") {
     response2.text("Awesome Job!");
     array.push(1);
  } else {
@@ -45,7 +46,7 @@ button3.on("click", checkAnswerThree);
 function checkAnswerThree() {
   event.preventDefault();
   var answer3 = $('.answer3').val();
-  if (answer3==="MooMba") {
+  if (answer3==="Do I need it?") {
     response3.text("Awesome Job!");
     array.push(1);
  } else {
@@ -63,7 +64,7 @@ button4.on("click", checkAnswerFour);
 function checkAnswerFour() {
   event.preventDefault();
   var answer4 = $('.answer4').val();
-  if (answer4==="Oven Pizza") {
+  if (answer4==="all of the above") {
     response4.text("Awesome Job!");
     array.push(1);
  } else {
@@ -81,7 +82,7 @@ button5.on("click", checkAnswerFive);
 function checkAnswerFive() {
   event.preventDefault();
   var answer5 = $('.answer5').val();
-  if (answer5==="Charleston") {
+  if (answer5==="blonde.") {
     response5.text("Awesome Job!");
     array.push(1);
  } else {
@@ -99,7 +100,7 @@ button6.on("click", finalFunction);
 function finalFunction() {
   event.preventDefault();
   if (array.length === 5) {
-    response6.text("Yay");
+    response6.text("I don't really have anything to put here but this was a fun project and I hope it made you laugh.");
   } else {
     response6.text("Don't cheat");
   }
